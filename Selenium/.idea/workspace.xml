@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1afc2ba4-d5ca-4f6e-ba82-cf0154e93870" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/SeleniumExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/classes/SeleniumExecution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumExecution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumExecution.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dM7vi4xLgqDGYzgm11Xh7arrRo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SeleniumExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumExecution" />
+      <module name="Selenium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SeleniumExecution" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1afc2ba4-d5ca-4f6e-ba82-cf0154e93870" name="Default Changelist" comment="" />
+      <created>1592223340309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592223340309</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1592223431260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592223431260</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1592224564674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592224564674</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Selenium first execution">
+      <created>1592225382223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592225382223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="Selenium first execution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium first execution" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1592227900314">
+      <screen x="-193" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1536.834/-193.-1080.1920.1080@-193.-1080.1920.1080" timestamp="1592227900314" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1592227900314">
+      <screen x="-193" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1536.834/-193.-1080.1920.1080@-193.-1080.1920.1080" timestamp="1592227900314" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1592227900314">
+      <screen x="-193" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1536.834/-193.-1080.1920.1080@-193.-1080.1920.1080" timestamp="1592227900314" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1592227900314">
+      <screen x="-193" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1536.834/-193.-1080.1920.1080@-193.-1080.1920.1080" timestamp="1592227900314" />
+    <state x="359" y="-807" key="Vcs.Push.Dialog.v2" timestamp="1592225385144">
+      <screen x="-193" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="359" y="-807" key="Vcs.Push.Dialog.v2/0.0.1536.834/-193.-1080.1920.1080@-193.-1080.1920.1080" timestamp="1592225385144" />
+  </component>
+</project>
