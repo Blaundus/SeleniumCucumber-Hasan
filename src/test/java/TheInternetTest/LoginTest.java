@@ -11,15 +11,10 @@ import pages.theinternet.LoginPage;
 
 import static org.testng.Assert.assertTrue;
 
-public class LoginTest {
+public class LoginTest extends BaseTest{
 
-    WebDriver driver;
     LoginPage loginPage;
 
-    @BeforeClass
-    public void beforeClass() {
-        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-    }
 
     @BeforeMethod
     public void setUp() {
@@ -63,8 +58,5 @@ public class LoginTest {
 
     }
 
-    @AfterMethod
-    public void tearDown() {
-        driver.close();
-    }
+
 }

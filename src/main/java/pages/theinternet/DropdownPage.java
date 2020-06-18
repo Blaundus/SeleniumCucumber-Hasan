@@ -10,9 +10,15 @@ public class DropdownPage {
 
     By dropdownLocator = By.id("dropdown");
 
+    String URL = "https://the-internet.herokuapp.com/dropdown";
 
     public DropdownPage(WebDriver driver) {
         this.driver = driver;
+    }
+
+    public DropdownPage navigateTo(){
+        driver.get(URL);
+        return  this;
     }
 
     public DropdownPage selectOption(int index) {
