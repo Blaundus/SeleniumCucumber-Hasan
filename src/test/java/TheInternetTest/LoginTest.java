@@ -7,12 +7,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.theinternet.LoginPage;
 
 import static org.testng.Assert.assertTrue;
 
 public class LoginTest {
 
     WebDriver driver;
+    LoginPage loginPage;
 
     @BeforeClass
     public void beforeClass() {
@@ -23,6 +25,8 @@ public class LoginTest {
     public void setUp() {
         driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/login");
+
+        loginPage = new LoginPage(driver);
     }
 
     @Test
@@ -32,17 +36,30 @@ public class LoginTest {
         String password = "fake";
         String expectedMessage = "Your username is invalid!";
 
-        driver.findElement(By.id("username")).sendKeys(user);
-
-        driver.findElement(By.id("password")).sendKeys(password);
-
-        driver.findElement(By.cssSelector("#login > button")).click();
-
-        final String message = driver.findElement(By.id("flash")).getText();
+        String message = loginPage
+                .loginWrongCredentials(user, password)
+                .getMessage();
 
         assertTrue(message.contains(expectedMessage), "Message is not correct");
 
         assertTrue(driver.getCurrentUrl().endsWith("login"), "We are not in the rigth page");
+
+    }
+
+    @Test
+    public void testRightCredentials_ShouldLetMeIn() {
+
+        String user = "tomsmith";
+        String password = "SuperSecretPassword!";
+        String expectedMessage = "You logged into a secure area!";
+
+        String message = loginPage
+                .loginRightCredentials(user, password)
+                .getMessage();
+
+        assertTrue(message.contains(expectedMessage), "Message is not correct");
+
+        assertTrue(driver.getCurrentUrl().endsWith("secure"), "We are not in the rigth page");
 
     }
 
